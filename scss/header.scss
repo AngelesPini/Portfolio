@@ -1,0 +1,53 @@
+header {
+    padding: 10px;
+    justify-content: center;
+
+    h1 {
+        font-size: 5em;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        padding: 5px;
+        display: igrid;
+        animation: backInRight;
+        animation-duration: 1s;
+    }
+    h2 {
+    font-size: 5em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 5px;
+    // animaiones
+        display: grid;
+        animation: backInRight;
+        animation-duration: 1s;
+    }
+    h3 {
+        font-size: 2em;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        display: grid;
+        animation: backInRight;
+        animation-duration: 1s;
+
+    }
+    .me{
+        animation: backInLeft;
+        animation-duration: 1s;
+    }
+    p{
+        font-size: 2em;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+    }
+    .about-me {
+        background-color: black;
+        filter:alpha(opacity=70);
+        -moz-opacity:.70;opacity:.70;
+        padding: 5px;
+    }
+    .btn {
+        border-style: outset;
+        border-color: white;
+        padding: 2px;
+    }
+}

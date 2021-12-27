@@ -1,0 +1,21 @@
+nav {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    color:white;
+    
+    .nav-link {
+        color: white;
+    }
+    .dis:hover {
+        color: #00ff7f;
+    }
+    .cod:hover {
+        color: #800080;
+    }
+    .con:hover{
+        color: #fa8072;
+    }
+    .abt:hover {
+        color: #008080;
+    }
+}
