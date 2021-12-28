@@ -124,8 +124,8 @@ main {
         height: 30%;
     }              
     .cards2 {
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
     } 
     .cards1 p {
         color: black;
@@ -133,8 +133,14 @@ main {
     .cards1 h3{
         color: black;
     }
-    .cards-body {
-        padding: 2px;
+    .cards2 p {
+        color: black;
+    }
+    .cards2 h3{
+        color: black;
+    }
+    .card2{
+        margin-left: 100px;
     }
     .br {
         display: grid;
@@ -172,5 +178,8 @@ main {
     }
     .certificado:hover{
         transform: scale(2.1,2.1);
-    }        
+    }  
+    .container {
+        justify-content: center;
+    }      
 }

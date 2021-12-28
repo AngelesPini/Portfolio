@@ -62,7 +62,45 @@ main {
         display: grid;
         justify-content: center;
         justify-items: center;
-    }           
+    }
+    .cards1{
+        width: 30%;
+        height: 30%;
+    }              
+    .cards2 {
+        width: 40%;
+        height: 40%;
+    } 
+    .cards1 p {
+        text-align: center;
+        font-size: 1em;
+        color: black;
+    }
+    .cards1 h3{
+        text-align: center;
+        font-size: 1.3em;
+        color: black;
+    }
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .card2 {
+    margin-left: 0px;
+    }
+    .cards2 p {
+        text-align: center;
+        font-size: 1em;
+        color: black;
+    }
+    .cards2 h3{
+        text-align: center;
+        font-size: 1.3em;
+        color: black;
+    }   
+    .linkInsta {
+        margin-left: 25%;
+    }        
 }
 
 }

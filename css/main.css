@@ -156,14 +156,18 @@ main {
     width: 30%;
     height: 30%; }
   main .cards2 {
-    width: 50%;
-    height: 50%; }
+    width: 40%;
+    height: 40%; }
   main .cards1 p {
     color: black; }
   main .cards1 h3 {
     color: black; }
-  main .cards-body {
-    padding: 2px; }
+  main .cards2 p {
+    color: black; }
+  main .cards2 h3 {
+    color: black; }
+  main .card2 {
+    margin-left: 100px; }
   main .br {
     display: grid;
     justify-content: center;
@@ -196,6 +200,8 @@ main {
     max-height: 150%; }
   main .certificado:hover {
     transform: scale(2.1, 2.1); }
+  main .container {
+    justify-content: center; }
 
 footer p {
   font-family: 'Oswald', sans-serif;
@@ -252,7 +258,36 @@ footer a {
   main .logo {
     display: grid;
     justify-content: center;
-    justify-items: center; } }
+    justify-items: center; }
+  main .cards1 {
+    width: 30%;
+    height: 30%; }
+  main .cards2 {
+    width: 40%;
+    height: 40%; }
+  main .cards1 p {
+    text-align: center;
+    font-size: 1em;
+    color: black; }
+  main .cards1 h3 {
+    text-align: center;
+    font-size: 1.3em;
+    color: black; }
+  main .card {
+    width: 100%;
+    height: 100%; }
+  main .card2 {
+    margin-left: 0px; }
+  main .cards2 p {
+    text-align: center;
+    font-size: 1em;
+    color: black; }
+  main .cards2 h3 {
+    text-align: center;
+    font-size: 1.3em;
+    color: black; }
+  main .linkInsta {
+    margin-left: 25%; } }
 
 body {
   background-image: url(../media/fondo.jpg);
