@@ -18,15 +18,15 @@ header {
   justify-content: center; }
   header h1 {
     font-size: 5em;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     color: white;
     padding: 5px;
-    display: igrid;
+    display: grid;
     animation: backInRight;
     animation-duration: 1s; }
   header h2 {
     font-size: 5em;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     color: white;
     padding: 5px;
     display: grid;
@@ -34,23 +34,20 @@ header {
     animation-duration: 1s; }
   header h3 {
     font-size: 2em;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     color: white;
     display: grid;
     animation: backInRight;
     animation-duration: 1s; }
-  header .me {
-    animation: backInLeft;
-    animation-duration: 1s; }
   header p {
     font-size: 2em;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     color: white; }
   header .about-me {
     background-color: black;
     filter: alpha(opacity=70);
-    -moz-opacity: .70;
-    opacity: .70;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
     padding: 5px; }
   header .btn {
     border-style: outset;
@@ -68,21 +65,22 @@ main {
   main .cod {
     color: white;
     font-size: 5em;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     display: grid;
     animation: bounceInDown;
     animation-duration: 2s; }
   main .dis {
     color: white;
     font-size: 5em;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     display: grid;
     animation: bounceInDown;
     animation-duration: 2s; }
   main p {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 1.5em;
-    color: white; }
+    color: white;
+    display: grid; }
   main .diseno:hover {
     color: springgreen; }
   main .coder:hover {
@@ -92,15 +90,17 @@ main {
     list-style-type: none; }
   main h2 {
     font-size: 2.5em;
-    font-family: 'Oswald', sans-serif;
-    color: white; }
+    font-family: "Oswald", sans-serif;
+    color: white;
+    display: grid;
+    justify-content: center; }
   main h3 {
     font-size: 2em;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     color: white; }
   main h4 {
     font-size: 2em;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     color: white;
     padding: 15px; }
   main .tada {
@@ -118,12 +118,12 @@ main {
   0% {
     opacity: 0; }
   50% {
-    opacity: .5; }
+    opacity: 0.5; }
   100% {
     opacity: 1; } }
   main p.txt {
     font-size: 2em;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     margin: 50px 10px 10px 15px; }
   main .pant {
     display: inline-block;
@@ -148,7 +148,7 @@ main {
     z-index: 10;
     background: #00000080;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
-    color: #FFF;
+    color: #fff;
     padding: 10px; }
   main li:hover .info {
     display: block; }
@@ -173,16 +173,16 @@ main {
     justify-content: center;
     background-color: black;
     filter: alpha(opacity=70);
-    -moz-opacity: .70;
-    opacity: .70;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
     padding: 5px; }
   main .tam {
     display: grid;
     justify-content: center;
     background-color: black;
     filter: alpha(opacity=70);
-    -moz-opacity: .70;
-    opacity: .70;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
     padding: 5px; }
     main .tam h3 {
       padding: 80px;
@@ -190,7 +190,7 @@ main {
     main .tam p {
       padding: 25px;
       color: #fa8072;
-      font-family: 'Licorice', cursive;
+      font-family: "Licorice", cursive;
       font-size: 3em; }
   main .bot {
     padding: 15px;
@@ -199,7 +199,7 @@ main {
     max-width: 150%;
     max-height: 150%; }
   main .certificado:hover {
-    transform: scale(2.1, 2.1); }
+    transform: scale(2.3, 2.3); }
   main .container {
     justify-content: center; }
 
@@ -224,11 +224,11 @@ footer a {
     justify-content: center; }
   main h2 {
     display: grid;
-    justify-content: center;
+    justify-items: center;
     font-size: 3em; }
   main p {
     display: grid;
-    justify-content: center; }
+    justify-items: center; }
   main ul {
     padding: 0;
     margin: 0;
@@ -247,7 +247,7 @@ footer a {
     z-index: 10;
     background: #00000080;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
-    color: #FFF;
+    color: #fff;
     padding: 10px; }
     main .info h3 {
       font-size: 1.5em; }
@@ -287,7 +287,12 @@ footer a {
     font-size: 1.3em;
     color: black; }
   main .linkInsta {
-    margin-left: 25%; } }
+    margin-left: 25%; }
+  main .resp-order {
+    display: grid;
+    justify-content: center; }
+  main .tam {
+    padding: -25px; } }
 
 body {
   background-image: url(../media/fondo.jpg);

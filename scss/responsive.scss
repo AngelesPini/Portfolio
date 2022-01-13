@@ -1,106 +1,112 @@
-@media screen and (max-width:768px) {
-    header{
-        h1{
-            display: grid;
-            justify-content: center;
-        }
-        h2{
-            display: grid;
-            justify-content: center;
-        }
-        h3{
-            display: grid;
-            justify-content: center;
-        }
+@media screen and (max-width: 768px) {
+  header {
+    h1 {
+      display: grid;
+      justify-content: center;
     }
-main {
-    h2{
-        display: grid;
-        justify-content: center;
-        font-size: 3em;
+    h2 {
+      display: grid;
+      justify-content: center;
     }
-    p{
-        display: grid;
-        justify-content: center;
+    h3 {
+      display: grid;
+      justify-content: center;
+    }
+  }
+  main {
+    h2 {
+      display: grid;
+      justify-items: center;
+      font-size: 3em;
+    }
+    p {
+      display: grid;
+      justify-items: center;
     }
     ul {
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-        }
-        
-        li {
-            position: relative;
-            float: left;
-            overflow: hidden;
-            margin: 0 15px 15px 0;
-            }
-            ul li img:hover {
-                transform: scale(1.2,1.2);
-            }
-            .info {
-                h3{
-                    font-size: 1.5em;
-                }
-                p{
-                    font-size: 1em;
-                }
-                display: none;
-                position: absolute;
-                bottom: 0;
-                z-index: 10;
-                background: #00000080;
-                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
-                // width: 300px;
-                color: #FFF;
-                padding: 10px;
-               }
-               li:hover .info{
-                display: none;
-                } 
-    .logo {
-        display: grid;
-        justify-content: center;
-        justify-items: center;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
     }
-    .cards1{
-        width: 30%;
-        height: 30%;
-    }              
-    .cards2 {
-        width: 40%;
-        height: 40%;
-    } 
-    .cards1 p {
-        text-align: center;
+
+    li {
+      position: relative;
+      float: left;
+      overflow: hidden;
+      margin: 0 15px 15px 0;
+    }
+    ul li img:hover {
+      transform: scale(1.2, 1.2);
+    }
+    .info {
+      h3 {
+        font-size: 1.5em;
+      }
+      p {
         font-size: 1em;
-        color: black;
+      }
+      display: none;
+      position: absolute;
+      bottom: 0;
+      z-index: 10;
+      background: #00000080;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+      // width: 300px;
+      color: #fff;
+      padding: 10px;
     }
-    .cards1 h3{
-        text-align: center;
-        font-size: 1.3em;
-        color: black;
+    li:hover .info {
+      display: none;
     }
-    .card{
-        width: 100%;
-        height: 100%;
+    .logo {
+      display: grid;
+      justify-content: center;
+      justify-items: center;
+    }
+    .cards1 {
+      width: 30%;
+      height: 30%;
+    }
+    .cards2 {
+      width: 40%;
+      height: 40%;
+    }
+    .cards1 p {
+      text-align: center;
+      font-size: 1em;
+      color: black;
+    }
+    .cards1 h3 {
+      text-align: center;
+      font-size: 1.3em;
+      color: black;
+    }
+    .card {
+      width: 100%;
+      height: 100%;
     }
     .card2 {
-    margin-left: 0px;
+      margin-left: 0px;
     }
     .cards2 p {
-        text-align: center;
-        font-size: 1em;
-        color: black;
+      text-align: center;
+      font-size: 1em;
+      color: black;
     }
-    .cards2 h3{
-        text-align: center;
-        font-size: 1.3em;
-        color: black;
-    }   
+    .cards2 h3 {
+      text-align: center;
+      font-size: 1.3em;
+      color: black;
+    }
     .linkInsta {
-        margin-left: 25%;
-    }        
-}
-
+      margin-left: 25%;
+    }
+    .resp-order {
+      display: grid;
+      justify-content: center;
+    }
+    .tam {
+      padding: -25px;
+    }
+  }
 }
